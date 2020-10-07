@@ -4,7 +4,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import MetisMenu from 'metismenujs/dist/metismenujs';
 
 import { activateMenuItems, resetMenuItems } from './utils';
-import { MENU } from './menu';
+import {ADMIN_MENU, MENU} from './menu';
 import { MenuItem } from './menu.model';
 
 @Component({
@@ -92,6 +92,7 @@ export class MenuComponent implements OnInit, AfterViewInit, OnChanges {
    * Initilize
    */
   initialize(): void {
+   // this.menuItems = ADMIN_MENU;
     this.menuItems = MENU;
   }
 

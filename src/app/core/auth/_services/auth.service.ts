@@ -5,13 +5,13 @@ import {User} from '../_models/user.model';
 import {Permission} from '../_models/permission.model';
 import {Role} from '../_models/role.model';
 import {catchError, map} from 'rxjs/operators';
+import {CookieService} from './cookie.service';
 import {environment} from '../../../../environments/environment';
-import {CookieService} from "./cookie.service";
 
 const API_USERS_URL = environment.API;
 
 @Injectable({providedIn: 'root'})
-export class AuthService {
+export class  AuthService {
   constructor(private http: HttpClient, private cookieService: CookieService) {
   }
 

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  URI: 'http://www.nusyce.local:8000/',
-  API: 'http://www.nusyce.local:8000/api/v1/',
+  URI: 'http://192.168.1.1/gero/nupay-api/public/',
+  API: 'http://192.168.1.1/gero/nupay-api/public/api/v1/',
   authTokenKey: '6a3f321cf1b258015af91a9e49203b23e49b99bf'
 };

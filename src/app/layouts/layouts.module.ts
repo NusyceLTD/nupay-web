@@ -16,7 +16,6 @@ import { RightsidebarComponent } from './shared/rightsidebar/rightsidebar.compon
 import { LeftsidebarComponent } from './shared/leftsidebar/leftsidebar.component';
 import { HorizontalComponent } from './horizontal/horizontal.component';
 import { VerticalComponent } from './vertical/vertical.component';
-
 @NgModule({
   // tslint:disable-next-line: max-line-length
   declarations: [LayoutComponent, MenuComponent, TopbarComponent, RightsidebarComponent, FooterComponent, LeftsidebarComponent, FooterComponent, HorizontalComponent, VerticalComponent],

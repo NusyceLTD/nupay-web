@@ -21,7 +21,6 @@ export class DashboardComponent implements OnInit {
   targetsBarChart: ChartType;
   salesDonutChart: ChartType;
   ordersData: OrdersTable[];
-
   ngOnInit() {
 
     /**

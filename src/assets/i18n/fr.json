@@ -1,0 +1,30 @@
+{ "LOGIN": {
+    "WELCOME": "Bienvenue!",
+    "EMAILTEXT": "Entrez votre adresse e-mail et votre mot de passe pour accéder au panneau d’administration.",
+    "EMAILLABEL": "Adresse Email",
+    "REMEMBERME": "Se rapeler de moi",
+  "PASSWORD": "Mot de passe",
+  "LOGIN": "Se connecter",
+  "FORGOTPASSWORD": "Mot de passe oublié?",
+  "USERNAME": "Nom d 'utilisateur",
+  "DONTHAVEACCOUNT": "Vous n'avez pas de compte?",
+  "SIGNUP": "Créer un compte",
+  "EMAILREQUIRED": "L'adresse Email est nécessaire",
+  "VALIDEMAIL": "L’E-mail doit être une adresse e-mail valide.",
+  "PASSWORDREQUIRED": "Mot de passe nécessaire"
+  },
+  "DASHBOARD": {
+    "DASHBOARD": "Tableau de bord",
+    "TODAYREVENUE": "SOLDE ACTUEL",
+    "OVERVIEW": "Bilan",
+    "SEND": "ENVOIE",
+    "RECEIVED": "RECUE"
+  },
+  "APPCOMPONENT":{
+  "CONNECTIONSUCCESS": "vous êtes connecté à internet!',",
+  "CONNECTIONERROR": "vous n'êtes pas connecté à internet!",
+  "CONNECTIONSTATUS": "vous n'êtes pas connecté à internet!"
+}
+}
+
+

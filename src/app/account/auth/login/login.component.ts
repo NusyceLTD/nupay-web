@@ -2,12 +2,11 @@ import {Component, OnInit, AfterViewInit, ChangeDetectorRef} from '@angular/core
 import {ActivatedRoute, Router} from '@angular/router';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {finalize, first, takeUntil, tap} from 'rxjs/operators';
-import {AuthService} from "../../../core/auth/_services";
-import {AppState} from "../../../core/reducers";
-import {Store} from "@ngrx/store";
-import {Login} from "../../../core/auth";
-import {Subject} from "rxjs";
-
+import {AuthService} from '../../../core/auth/_services';
+import {AppState} from '../../../core/reducers';
+import {Store} from '@ngrx/store';
+import {Login} from '../../../core/auth';
+import {Subject} from 'rxjs';
 
 @Component({
   selector: 'app-login',
@@ -63,6 +62,7 @@ export class LoginComponent implements OnInit, AfterViewInit {
     }
 
     this.loading = true;
+    // this.authenticationService.login(this.f.email.value, this.f.password.value)
     this.authenticationService.login(this.f.email.value, this.f.password.value)
       .pipe(
         tap(user => {
@@ -81,7 +81,7 @@ export class LoginComponent implements OnInit, AfterViewInit {
           this.loading = false;
           this.cdr.markForCheck();
         })
-      )
+       )
       .subscribe();
 
   }

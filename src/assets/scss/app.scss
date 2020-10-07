@@ -9,29 +9,29 @@ File: Main Css File
 
 /* =======================
     TABLE OF CSS
-    1. Fonts 
-    2. General 
-    3. Left Menu 
-    4. Topbar 
-    5. Page Head 
-    6. Footer 
-    7. Horizontal Nav 
-    8. Right Sidebar 
-    9. Layouts 
-    10. Helper 
-    11. Social 
-    12. Widgets 
-    13. Custom Checkbox 
-    14. Custom Radio 
-    15. Print 
-    16. Preloader 
-    17. Plugins 
-    18. Components Demo 
-    19. Tasks 
-    20. Email 
-    21. Timeline 
-    22. Extra Pages 
-    23. Authentication 
+    1. Fonts
+    2. General
+    3. Left Menu
+    4. Topbar
+    5. Page Head
+    6. Footer
+    7. Horizontal Nav
+    8. Right Sidebar
+    9. Layouts
+    10. Helper
+    11. Social
+    12. Widgets
+    13. Custom Checkbox
+    14. Custom Radio
+    15. Print
+    16. Preloader
+    17. Plugins
+    18. Components Demo
+    19. Tasks
+    20. Email
+    21. Timeline
+    22. Extra Pages
+    23. Authentication
    ======================= */
 
 
@@ -45,7 +45,8 @@ File: Main Css File
 @import "./node_modules/bootstrap/scss/variables";
 @import "variables";
 @import "./node_modules/bootstrap/scss/mixins.scss";
-
+@import '~ngx-toastr/toastr';
+@import '~ngx-toastr/toastr-bs4-alert';
 // Structure
 /* 2. General */
 @import "custom/structure/general";
@@ -107,3 +108,4 @@ File: Main Css File
 @import "custom/pages/extra-pages";
 /* 23. Authentication */
 @import "custom/pages/authentication";
+

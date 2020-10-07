@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row page-title align-items-center">
     <div class="col-sm-4 col-xl-6">
-      <h4 class="mb-1 mt-0">Dashboard</h4>
+      <h4 class="mb-1 mt-0">{{'DASHBOARD.DASHBOARD'|translate}}</h4>
     </div>
     <div class="col-sm-8 col-xl-6">
       <form class="form-inline float-sm-right mt-3 mt-sm-0">
@@ -54,11 +54,11 @@
     <div class="col-xl-3">
       <div class="card">
         <div class="card-body p-0">
-          <h5 class="card-title header-title border-bottom p-3 mb-0">Overview</h5>
+          <h5 class="card-title header-title border-bottom p-3 mb-0">{{'DASHBOARD.OVERVIEW'|translate}}</h5>
           <!-- Overview data -->
-          <app-overview value='121,000' icon='users' title="Total Visitors" classNames="px-3 py-4">
+          <app-overview value='121,000' icon='users' title="{{'DASHBOARD.SEND'|translate}}" classNames="px-3 py-4">
           </app-overview>
-          <app-overview value='21,000' icon='image' title="Total Product Views" classNames="px-3 py-4">
+          <app-overview value='21,000' icon='image' title="{{'DASHBOARD.RECEIVED'|translate}}" classNames="px-3 py-4">
           </app-overview>
           <app-overview value='$21.5' icon='shopping-bag' title="Revenue Per Visitor" classNames="px-3 py-4"></app-overview>
         </div>
@@ -70,6 +70,7 @@
           <ul class="nav card-nav float-right">
             <li class="nav-item">
               <a class="nav-link text-muted" href="javascript: void(0);">Today</a>
+<!--              <a class="nav-link text-muted" href="javascript: void(0);">{{'DASHBOARD.SEND'|translate}}</a>-->
             </li>
             <li class="nav-item">
               <a class="nav-link text-muted" href="javascript: void(0);">7d</a>
@@ -158,8 +159,8 @@
                   <td>{{ table.price }}</td>
                   <td><span class="badge py-1" [ngClass]="{
                                         'badge-soft-warning': table.status === 'Pending',
-                                        'badge-soft-success': table.status === 'Delivered',  
-                                        'badge-soft-danger': table.status === 'Declined'  
+                                        'badge-soft-success': table.status === 'Delivered',
+                                        'badge-soft-danger': table.status === 'Declined'
                                     }">{{ table.status }}</span></td>
                 </tr>
 

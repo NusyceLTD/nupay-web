@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
 import {HttpEvent, HttpHandler, HttpInterceptor, HttpRequest} from '@angular/common/http';
 import {Observable} from 'rxjs';
-import {environment} from "../../../environments/environment";
-import {CookieService} from "../auth/_services/cookie.service";
+import {environment} from '../../../environments/environment';
+import {CookieService} from '../auth/_services/cookie.service';
 
 @Injectable()
 export class JwtInterceptor implements HttpInterceptor {
