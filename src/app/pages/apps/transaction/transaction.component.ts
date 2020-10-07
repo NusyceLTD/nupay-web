@@ -12,7 +12,7 @@ export class TransactionComponent implements OnInit {
 
   constructor() { }
   ngOnInit() {
-    this.breadCrumbItems = [{ label: 'Shreyu', path: '/' }, { label: 'pages', path: '/' }, { label: 'Transaction', active: true }];
+    this.breadCrumbItems = [{ label: 'Shreyu', path: '/' }, { label: 'pages', path: '/' }, { label: 'Transactions', active: true }];
 
 
   }
