@@ -213,6 +213,10 @@ export const MENU: MenuItem[] = [
         label: 'Opérations',
         isTitle: true
     },
+  {
+    label: 'Transaction',
+    link: '/apps-transaction',
+  },
     {
         label: 'Dépots',
         link: '/operations-depots',

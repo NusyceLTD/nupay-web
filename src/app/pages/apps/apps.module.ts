@@ -11,7 +11,6 @@ import { EmailModule } from './email/email.module';
 import { ProjectModule } from './project/project.module';
 import { TasksModule } from './tasks/tasks.module';
 import { FullCalendarModule } from '@fullcalendar/angular';
-
 import { CalendarComponent } from './calendar/calendar.component';
 import { TransactionComponent } from './transaction/transaction.component';
 

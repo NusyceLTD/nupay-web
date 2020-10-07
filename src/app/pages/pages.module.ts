@@ -14,12 +14,10 @@ import { WidgetModule } from '../shared/widgets/widget.module';
 import { UiModule } from './ui/ui.module';
 import { AppsModule } from './apps/apps.module';
 import { OtherModule } from './other/other.module';
+import { OperationsModule } from './operations/operations.module';
 import {TranslateModule} from '@ngx-translate/core';
-import { RetraitsComponent } from './operations/retraits/retraits.component';
-import { DepotsComponent } from './operations/depots/depots.component';
-
 @NgModule({
-  declarations: [DashboardComponent, RetraitsComponent, DepotsComponent],
+  declarations: [DashboardComponent],
   imports: [
     CommonModule,
     FormsModule,
@@ -32,7 +30,8 @@ import { DepotsComponent } from './operations/depots/depots.component';
     UiModule,
     AppsModule,
     OtherModule,
-    TranslateModule
+    TranslateModule,
+    OperationsModule
   ]
 })
 export class PagesModule { }
