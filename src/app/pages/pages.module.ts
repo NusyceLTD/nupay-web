@@ -16,6 +16,8 @@ import { AppsModule } from './apps/apps.module';
 import { OtherModule } from './other/other.module';
 import { OperationsModule } from './operations/operations.module';
 import {TranslateModule} from '@ngx-translate/core';
+import {PublicationsModule} from './publications/publications.module';
+import {ParametragesModule} from './parametrages/parametrages.module';
 @NgModule({
   declarations: [DashboardComponent],
   imports: [
@@ -31,7 +33,9 @@ import {TranslateModule} from '@ngx-translate/core';
     AppsModule,
     OtherModule,
     TranslateModule,
-    OperationsModule
+    OperationsModule,
+    PublicationsModule,
+    ParametragesModule,
   ]
 })
 export class PagesModule { }

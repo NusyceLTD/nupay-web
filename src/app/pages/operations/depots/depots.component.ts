@@ -11,7 +11,7 @@ export class DepotsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.breadCrumbItems = [{ label: 'Shreyu', path: '/' }, { label: 'Opérations', path: '/' }, { label: 'Depots', active: true }];
+    this.breadCrumbItems = [{ label: 'Shreyu', path: '/' }, { label: 'Opérations', path: '/' }, { label: 'Dépots', active: true }];
 
   }
 
