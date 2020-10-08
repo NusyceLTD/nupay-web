@@ -231,10 +231,6 @@ export const MENU: MenuItem[] = [
       },
     ]
   },
-  {
-    label: 'Transaction',
-    link: '/apps-transaction',
-  },
     {
         label: 'Dépots',
         link: '/operations-depots',
@@ -277,7 +273,7 @@ export const MENU: MenuItem[] = [
         icon: 'bookmark',
         subItems: [
             {
-                label: 'utilisateurs',
+                label: 'Utilisateurs',
                 link: '/compteutilisateur-utilisateurs',
             },
             {
