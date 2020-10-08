@@ -219,15 +219,15 @@ export const MENU: MenuItem[] = [
     subItems: [
       {
         label: 'Envois',
-        link: '/operations/transactions-envois',
+        link: '/transactions-envois',
       },
       {
         label: 'Receptions',
-        link: '/operations/transactions-receptions',
+        link: '/transactions-receptions',
       },
       {
         label: 'Toutes les transactions',
-        link: '/operations/transactions-toutestransactions',
+        link: '/transactions-toutestransactions',
       },
     ]
   },
@@ -278,15 +278,15 @@ export const MENU: MenuItem[] = [
         subItems: [
             {
                 label: 'utilisateurs',
-                link: 'parametrages/compteutilisateur-utilisateurs',
+                link: '/compteutilisateur-utilisateurs',
             },
             {
                 label: 'Roles',
-                link: 'parametrages/compteutilisateur-roles',
+                link: '/compteutilisateur-roles',
             },
           {
                 label: 'Permissions',
-                link: 'parametrages/compteutilisateur-permissions',
+                link: '/compteutilisateur-permissions',
             },
         ]
     },

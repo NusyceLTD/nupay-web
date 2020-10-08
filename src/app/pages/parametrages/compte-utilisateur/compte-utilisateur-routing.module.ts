@@ -5,18 +5,6 @@ import {RolesComponent} from './roles/roles.component';
 import {UtilisateursComponent} from './utilisateurs/utilisateurs.component';
 
 const routes: Routes = [
-  {
-    path: 'compteutilisateur-permissions',
-    component: PermissionsComponent
-  },
-  {
-    path: 'compteutilisateur-roles',
-    component: RolesComponent
-  },
-  {
-    path: 'compteutilisateur-utilisateurs',
-    component: UtilisateursComponent
-  },
 ];
 
 @NgModule({
